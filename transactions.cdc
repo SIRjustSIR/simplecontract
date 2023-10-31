@@ -1,11 +1,11 @@
-import favouritefruits from 0x01
+import favouritefilms from 0x01
 
-transaction(name: String, firstfruit: String, secondfruit: String, account: Address) {
+transaction(name: String, firstfilm: String, secondfilm: String, account: Address) {
 
     prepare(signer: AuthAccount) {}
 
     execute {
-        favouritefruits.addfruit(name: name, firstfruit: firstfruit, secondfruit: secondfruit, account: account)
+        favouritefilms.addfilm(name: name, firstfilm: firstfilm, secondfilm: secondfilm, account: account)
         log("We're done.")
     }
 }

@@ -1,5 +1,5 @@
-import favouritefruits from 0x01
+import favouritefilms from 0x01
 
-pub fun main(account: Address): favouritefruits.fruit {
-    return favouritefruits.fruits[account]!
+pub fun main(account: Address): favouritefilms.film {
+    return favouritefilms.films[account]!
 }
